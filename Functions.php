@@ -136,7 +136,7 @@
             $date1 = new DateTime( $date1 );
             $date2 = new DateTime( $date2 );
             $interval = $date1->diff( $date2 );
-            echo $interval->format( '%a gün önce' );
+            echo $interval->format( '%a' );
         }
     }
 ?>
